@@ -38,4 +38,12 @@ html{
 p{
     font-size: .8em;
 }
+p + a{
+    color: #fff;
+    text-decoration: none;
+}
+p + a:hover{
+    color: #000;
+    text-shadow: 1px 1px 1px #E7E7E7;
+}
 
