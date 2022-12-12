@@ -1,0 +1,36 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+#nav-list a {
+    text-align: center;
+    background-color: #999;
+    border: solid 1px #000;
+    border-radius: 3px;
+    line-height: 1;
+    padding: 1px 0;
+    width: 100%;
+    margin: 1px auto;
+  }
+#nav-list a:current {
+    background: #E7E7E7;
+    color: #999;
+}
+#nav-list a:focus{
+    color: #fff;
+}
+.menu-items{
+    overflow-y: scroll;
+    height: 1000px;
+    
+    width: 100%;
+    padding-bottom: 5px;
+}
+.menu-items section{
+    background-color: #999;
+    margin-bottom: 3px;
+}
+p{
+    font-size: .8em;
+}
+
